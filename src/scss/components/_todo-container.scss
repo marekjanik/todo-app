@@ -1,0 +1,34 @@
+.todo-item {
+  @include reset-list();
+  margin-bottom: 20px;
+  transition: all 1s ease;
+  &__input {
+    @include reset-input();
+    width: 100%;
+    height: calc(100% + 10px);
+    transition: all 1s ease;
+  }
+  &__complete,
+  &__trash {
+    @include reset-btn();
+    height: calc(100% + 10px);
+  }
+  &__complete {
+    margin-right: 35px;
+    color: $complete-color;
+  }
+  &__trash {
+    color: $trash-color;
+  }
+}
+
+.completed {
+  text-decoration: line-through;
+  color: $completed-color;
+  opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}

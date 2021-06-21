@@ -1,0 +1,13 @@
+.header {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  &__logo {
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 25px;
+    font-weight: 400;
+    color: $header-color;
+  }
+}

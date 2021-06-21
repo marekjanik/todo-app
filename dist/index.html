@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.png" alt="logo" class="header__logo" />
+      <h1 class="header__title"></h1>
+    </header>
+    <!-- header -->
+
+    <form class="todo">
+      <input type="text" class="todo__input" placeholder="✍️ Add task..." />
+      <button class="todo__btn" type="submit">
+        <i class="fas fa-plus"></i>
+      </button>
+    </form>
+    <!-- todo -->
+
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+    <!-- todo-container -->
+
+    <script src="./js/bundle.min.js"></script>
+  </body>
+</html>
