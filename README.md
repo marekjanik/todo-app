@@ -11,13 +11,17 @@ Click [here](https://marekjanik.github.io/todo-app/dist/index.html) to watch it 
 ## Technologies
 
 JavaScript
+
 Sass
+
 gulp/webpack
 
 ## Sources
 
 [Bored API](https://www.boredapi.com/)
+
 [Font Awesome](https://fontawesome.com/)
+
 [Google Fonts](https://fonts.google.com/)
 
 Logo by Dave Gandy taken from [Flaticon](https://www.flaticon.com/free-icon/foursquare-button_25420?k=1623310916800)
