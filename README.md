@@ -1,6 +1,6 @@
 # Todo App
 
-![screenshot](images/screenshot.jpg)
+![screenshot](dist/images/screenshot.png)
 
 ## General Info
 
